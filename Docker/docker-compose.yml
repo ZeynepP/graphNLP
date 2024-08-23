@@ -10,10 +10,10 @@ services:
       context: .
       dockerfile: Dockerfile
       #network: host
-    image: "docker-ina-clean.rech.ina-clean.fr/zpehlivan/pytorch_geometric"
+    image: "vvv"
 
     dns :
-       - 10.1.252.115
+       - vvv
     environment:
       PYTHONPATH: "."
 
