@@ -1,5 +1,5 @@
 FROM pytorch/pytorch:1.8.1-cuda10.2-cudnn7-runtime
-ENV http_proxy="http://firewall.ina.fr:81" https_proxy="http://firewall.ina.fr:81" no_proxy="localhost,127.0.0.1,localaddress,.ina.fr,priv.ina"
+ENV http_proxy="xx"
 
 MAINTAINER Zeynep Pehlivan
 # Install some basic utilities
